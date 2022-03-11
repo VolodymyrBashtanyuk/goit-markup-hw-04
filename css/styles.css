@@ -117,14 +117,14 @@ body {
 }
 .hero {
   background-color: var(--footer-hero-background);
-  align-items: center;
   text-align: center;
-  justify-content: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/hero-img.jpg');
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   color: var(--main-background);
